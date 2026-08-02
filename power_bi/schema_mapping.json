@@ -1,0 +1,65 @@
+{
+  "dataset_name": "fact_runway_risk",
+  "fields": [
+    {
+      "name": "startup_id",
+      "type": "string",
+      "power_bi_type": "Text",
+      "description": "Unique identifier for the startup"
+    },
+    {
+      "name": "company_name",
+      "type": "string",
+      "power_bi_type": "Text",
+      "description": "Display name of company"
+    },
+    {
+      "name": "industry",
+      "type": "string",
+      "power_bi_type": "Text",
+      "description": "Primary industry vertical"
+    },
+    {
+      "name": "country",
+      "type": "string",
+      "power_bi_type": "Text",
+      "description": "Country of headquarters"
+    },
+    {
+      "name": "status",
+      "type": "string",
+      "power_bi_type": "Text",
+      "description": "Operating status (operating, acquired, closed, ipo)"
+    },
+    {
+      "name": "total_capital_raised_usd",
+      "type": "numeric",
+      "power_bi_type": "Decimal Number",
+      "description": "Cumulative USD funding raised"
+    },
+    {
+      "name": "estimated_monthly_burn_usd",
+      "type": "numeric",
+      "power_bi_type": "Decimal Number",
+      "description": "Monthly burn rate in USD"
+    },
+    {
+      "name": "last_funding_date",
+      "type": "date",
+      "power_bi_type": "Date",
+      "description": "Date of most recent funding round"
+    },
+    {
+      "name": "runway_months",
+      "type": "numeric",
+      "power_bi_type": "Decimal Number",
+      "description": "Calculated months of remaining cash runway"
+    },
+    {
+      "name": "risk_level",
+      "type": "string",
+      "power_bi_type": "Text",
+      "description": "Risk classification: High (<6m), Medium (6-12m), Low (>12m)"
+    }
+  ]
+}
