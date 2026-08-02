@@ -1,12 +1,4 @@
-# VC Startup Intelligence Engine
 
-An end-to-end analytical platform and early-warning runway risk detector built for Venture Capital investment and portfolio support teams.
-
-## Overview
-
-This project ingests startup data, models runway risk in BigQuery, exposes REST endpoints via FastAPI, and provides a Next.js frontend and Power BI reporting.
-
-Tech stack: Python (pandas, google-cloud-bigquery), BigQuery, FastAPI, Next.js (TypeScript), Power BI.
 # 🏎️ VC Startup Intelligence Engine
 
 An end-to-end analytical platform and early-warning runway risk detector built for Venture Capital investment and portfolio support teams.
@@ -24,7 +16,7 @@ This platform automates data ingestion, models runway risk in **Google BigQuery*
 
 ---
 
-## System Architecture
+##  System Architecture
 
 ```text
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -49,6 +41,19 @@ This platform automates data ingestion, models runway risk in **Google BigQuery*
 │ 4A. WEB FRONTEND (Next.js/Tremor)  │  │ 4B. EXECUTIVE BI (Power BI)        │
 │ Interactive Risk & Sourcing UI     │  │ Partner-Level Reporting Dashboard  │
 └────────────────────────────────────┘  └────────────────────────────────────┘
+## Overview
+
+This project ingests startup data, models runway risk in BigQuery, exposes REST endpoints via FastAPI, and provides a Next.js frontend and Power BI reporting.
+
+Tech stack: Python (pandas, google-cloud-bigquery), BigQuery, FastAPI, Next.js (TypeScript), Power BI.
+#  VC Startup Intelligence Engine
+
+An end-to-end analytical platform and early-warning runway risk detector built for Venture Capital investment and portfolio support teams.
+
+![Architecture Overview](https://img.shields.io/badge/Architecture-Full--Stack%20Data-blue)
+![Stack](https://img.shields.io/badge/Stack-BigQuery%20%7C%20FastAPI%20%7C%20Next.js%20%7C%20Power%20BI-green)
+
+
 
 ## Quickstart
 
