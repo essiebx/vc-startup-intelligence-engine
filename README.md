@@ -1,5 +1,3 @@
-# VC Startup Intelligence Engine
-
 An end-to-end analytical platform and early-warning runway risk detector built for Venture Capital investment and portfolio support teams.
 
 ![Architecture Overview](https://img.shields.io/badge/Architecture-Full--Stack%20Data-blue)
